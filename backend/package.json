@@ -1,0 +1,25 @@
+{
+  "name": "imada-lab-backend",
+  "version": "1.0.0",
+  "description": "Backend API for imada-lab corporate site",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["imada-lab", "api"],
+  "author": "imada-lab",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "resend": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
